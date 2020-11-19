@@ -1,5 +1,11 @@
+html{
+    overflow-x:hidden;
+    width: 100vw;
+}
+.meat {
+   margin-top: -50px;
+}
 section {
-  /* margin-top: 50px; */
   text-align: center;
 }
 
@@ -13,17 +19,28 @@ section div img {
   width: 100%;
 }
 
+.title1{
+    background-image: url(../css/photos/blacklotus_big.png);
+    background-size: cover;
+    padding: 80px 30px 0px 30px;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+.Center { 
+
+        } 
 .title {
-  color: white;
-  -webkit-text-stroke: 1px #black;
-  text-shadow:
-    2px 2px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-  font-size: 40px;
-  padding-bottom: 9rem;
+    color: white;
+    -webkit-text-stroke: 1px #black;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    font-size: 40px;
+
 }
 
 .content {
@@ -43,6 +60,7 @@ section div img {
 
 ::-webkit-scrollbar {
   width: 12px;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-track {
