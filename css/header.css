@@ -3,7 +3,7 @@
 body {
   margin: 0;
   line-height: 1.4;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -86,9 +86,8 @@ body {
   margin-right: auto;
 }
 
-.lotus-icon-image {}
-
-.header .lotus, #lotus {
+.header .lotus,
+#lotus {
   display: inline-block;
   position: absolute;
   height: 100%;
@@ -111,7 +110,7 @@ body {
   transition-delay: 0.65s;
   width: 50px;
   height: 50px;
-  z-index: -2
+  z-index: -2;
 }
 
 .header ul.menu {
@@ -126,7 +125,8 @@ body {
   margin-top: 5px;
   transform: scale(1.15) translateY(-30px);
   opacity: 0;
-  transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+  transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99),
+    opacity 0.6s cubic-bezier(0.4, 0.01, 0.165, 0.99);
 }
 
 .header ul.menu li.menu-item:nth-child(1) {
@@ -161,7 +161,7 @@ body {
   display: block;
   position: relative;
   color: #fff;
-  font-family: 'Ek Mukta', sans-serif;
+  font-family: "Ek Mukta", sans-serif;
   font-weight: 100;
   text-decoration: none;
   font-size: 22px;
@@ -174,7 +174,7 @@ body {
   height: 100%;
   /* background-color: #000; */
   background-image: url(../css/Black_Lotus_Logo.png);
-  transition: all 0.3s ease-in, background 0.0s ease-in;
+  transition: all 0.3s ease-in, background 0s ease-in;
   transition-delay: 0.25s;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -260,12 +260,8 @@ body {
 }
 
 .header a {
-  color: #A3AAAE;
-  -webkit-text-stroke: 1px #black;
-  text-shadow:
-    2px 2px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+  color: #a3aaae;
+  -webkit-text-stroke: 1px black;
+  text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
 }
